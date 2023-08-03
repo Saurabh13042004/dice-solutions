@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
+import Process from "./components/Process"
 import './App.css'
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
   return (
     <div>
     <Navbar />
-    <Hero/>
+      <Hero />
+      <Process/>
     </div>
 
   )
